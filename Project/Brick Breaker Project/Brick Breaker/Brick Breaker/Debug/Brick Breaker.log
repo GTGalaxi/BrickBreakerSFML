@@ -1,0 +1,16 @@
+﻿Game.obj : error LNK2019: unresolved external symbol "public: __thiscall sf::Font::Font(void)" (??0Font@sf@@QAE@XZ) referenced in function _main
+Game.obj : error LNK2019: unresolved external symbol "public: __thiscall sf::Font::~Font(void)" (??1Font@sf@@QAE@XZ) referenced in function _main
+Game.obj : error LNK2019: unresolved external symbol "public: bool __thiscall sf::Font::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadFromFile@Font@sf@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function _main
+E:/SFML-2.3.2/lib\sfml-system-s-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+E:/SFML-2.3.2/lib\sfml-window-s-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+E:/SFML-2.3.2/lib\sfml-graphics-s-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+E:/SFML-2.3.2/lib\sfml-audio-s-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+E:/SFML-2.3.2/lib\freetype.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+E:/SFML-2.3.2/lib\jpeg.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+E:/SFML-2.3.2/lib\flac.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+E:/SFML-2.3.2/lib\ogg.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+E:/SFML-2.3.2/lib\openal32.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+E:/SFML-2.3.2/lib\vorbis.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+E:/SFML-2.3.2/lib\vorbisenc.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+E:/SFML-2.3.2/lib\vorbisfile.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+E:\Brick Breaker Project\Brick Breaker\Debug\Brick Breaker.exe : fatal error LNK1120: 3 unresolved externals
